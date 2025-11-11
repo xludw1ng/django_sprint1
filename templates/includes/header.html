@@ -1,0 +1,15 @@
+<header class="py-3 mb-4" style="background-color:#7ac7ff;">
+  <div class="container d-flex align-items-center">
+    <div class="rounded-circle bg-success text-white d-flex
+                align-items-center justify-content-center me-2"
+         style="width:32px;height:32px;">
+      В
+    </div>
+    <span class="fs-4 me-auto">Блогикум</span>
+    <nav>
+      <a href="{% url 'blog:index' %}" class="me-3">Лента записей</a>
+      <a href="{% url 'pages:about' %}" class="me-3">О проекте</a>
+      <a href="{% url 'pages:rules' %}">Наши правила</a>
+    </nav>
+  </div>
+</header>
