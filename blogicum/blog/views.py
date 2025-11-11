@@ -53,7 +53,7 @@ def get_post_or_404(post_id: int):
 
 
 def index(request):
-    context = {'posts': posts}
+    context = {'posts': posts[::-1]}
     return render(request, 'blog/index.html', context)
 
 
